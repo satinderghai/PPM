@@ -1,0 +1,237 @@
+.distance-filter-section input[type="range"] {
+    padding: 1px 0px 0px 0px;
+    -webkit-appearance: none;
+    background-color: gray;
+}
+.profile-info-content-types {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+.profile-info-content-types li {
+    width: 32.33%;
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 42px;
+}
+
+img.img-profile.rounded-circle {
+    width: 78px;
+    height: 85px;
+    object-fit: cover;
+}
+
+
+html body {
+    min-height: 100% !important;
+    height: auto !important;
+}
+
+html body  .head-option a {
+    color: #F51B1C !important;
+}
+li.edu_email_address {
+    list-style: none;
+}
+.ex-accordion_body {
+    padding: 0px 12px;
+    text-align: left;
+    margin-top: 12px;
+}
+html body .card {
+    background-color: white !important;
+}
+button.tag {
+    background-color: #f9f9f9;
+}
+button.tag.tag_selected {
+    background-color: #ff000000;
+    color: white;
+    border: 1px solid #f51b1c;
+    color: #f51b1c;
+}
+.profile-info-content-types li {
+    width: 31.33%;
+    text-align: center;
+    margin: 5px 4px;
+}
+.profile-info-content-types li:focus-visible{
+    border-color: 1px solid red;
+    background-color: red;
+}
+
+.result-box-body {
+    padding: 11px;
+    position: relative;
+    width: 100%;
+}
+
+#list_view  .vister {
+    border-radius: 7px;
+    margin: 10px;
+    box-shadow: 0px 0px 8px 3px #efefef;
+}
+#list_view .vister-profile-image {
+    height: 175px;
+    width: 143px;
+}
+#list_view .like {
+    position: inherit;
+}
+#list_view .vister {
+    padding: 15px;
+}
+#list_view p.timing {
+    top: 14px;
+    position: absolute;
+    right: 18px;
+}
+#userProfilePopup .modal-content {
+    color: #000;
+    height: 80vh !important;
+    overflow-y: scroll;
+}
+.lw-inline-edit-text {
+     margin-top: 0px; 
+    margin-bottom: 0px; 
+}
+
+/*Login_Drop_dwon*/
+
+#profile_drop_down{
+    min-width: 300px;
+    padding: 10px;
+}
+#profile_drop_down p {
+    margin-bottom: 5px;
+}
+#profile_drop_down .img-profile-view {
+    width: 74px;
+    height: 85px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.img-profile-view .rounded-circle {
+    border-radius: 0% !important;
+}
+#profile_drop_down .user-title {
+    font-size: 19px;
+    color: black;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 10px;
+}
+#profile_drop_down button.upgrade-profile {
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: #ffa739d1;
+}
+#profile_drop_down .about-profile-button {
+    margin: 12px 0px;
+}
+#profile_drop_down .about-profile-button button {
+    padding: 10px 17px;
+    margin: 0px 3px;
+    color: black;
+    width: 50%;
+    background-color: #e7e7e7 !important;
+}
+#profile_drop_down .bost-profile-button button {
+    width: 100%;
+    margin: 0px 0px 5px;
+    color: black;
+    background-color: #e7e7e7 !important;
+    padding: 10px 0px;
+}
+#profile_drop_down .option-list p {
+    margin-bottom: 10px !important;
+    font-size: 16px;
+}
+
+.step-1 .box-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/**/
+.result-box-img img {
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}
+.result-box-img {
+    min-height: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+.tag-group {
+    padding: 0px 0px !important; 
+}
+button.tag {
+    background-color: #f9f9f9 !important;
+}
+.serch-result-box {
+    min-height: 387px;
+}
+.sidebar .nav-item {
+    font-size: 12px;
+}
+.sidebar-brand ul {
+    display: none;
+}
+.sidebar-brand ul li {
+    list-style: none;
+}
+.fa-solid.fa-heart.like_true {
+    color: red;
+}
+ul#accordionSidebar ul.filter-ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul#accordionSidebar ul.filter-ul li .css-3rrmd2 {
+    padding-left: 5px;
+}
+ul#accordionSidebar ul.filter-ul li label {
+    margin: 0;
+    padding-left: 5px;
+}
+.accordion_container .accordion_body {
+    padding: 0;
+}
+.card-body li.nav-item {
+    margin: 0px 0px 15px;
+    font-size: 12px;
+}
+
+@media (max-width: 768px){
+
+#list_view .vister-profile-image {
+    height: 113px;
+    width: 92px;
+}
+.about-vistor, .adress, .height, .body{
+    display: none;
+}
+}
+@media (max-width: 480px){
+.sidebar-brand ul {
+    display: block;
+}
+}
